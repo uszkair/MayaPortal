@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:MayaPortal": "node dist/maya-portal/server/server.mjs",
-    "generate.mayacomposite": "ng-openapi-gen -c src/app/maya/schema/mayacomposite-api.json"
+    "generate.mayacomposite": "ng-openapi-gen -c src/app/api/maya/schema/mayacomposite-api.json"
   },
   "private": true,
   "dependencies": {
